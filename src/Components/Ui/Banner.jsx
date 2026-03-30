@@ -1,16 +1,14 @@
-import { Play, CircleDot } from 'lucide-react';
 import React from 'react';
 import bannerImage from '../../assets/banner.png';
+import badgeImg from '../../assets/badge.png';
+import playImg from '../../assets/Play.png';
 
 const Banner = () => {
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12 md:py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
             <div className="flex-1 space-y-6 md:space-y-8 text-center lg:text-left">
                 <div className="inline-flex items-center gap-2 bg-[#e1e7ff] text-sm font-medium px-5 py-2 rounded-full mx-auto lg:mx-0">
-                    <CircleDot 
-                        size={18} 
-                        className="text-[#7C3AED]"   
-                    />
+                    <img src={badgeImg} alt="Badge Image" />
                     <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
                         text-transparent bg-clip-text'>New: AI-Powered Tools Available</span>
                 </div>
@@ -26,14 +24,10 @@ const Banner = () => {
                     <button className="w-full sm:w-auto px-8 py-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-semibold rounded-full hover:brightness-150 transition-all">
                         Explore Products
                     </button>
-                    <button className="group flex w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 border-2 border-[#861dfa] hover:-translate-y-2 rounded-full font-semibold transition-all">
-                        <Play 
-                            size={22} 
-                            strokeWidth={3} 
-                            className="text-[#4F39F6] transition-all duration-300 group-hover:scale-110 group-hover:rotate-20" 
-                        />
+                    <button className="flex w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 border-2 border-[#861dfa] hover:-translate-y-2 rounded-full font-semibold transition-all duration-300 hover:bg-blue-100">
+                        <img src={playImg} alt="Play Icon" />
                         <span className='bg-linear-to-r from-[#4F39F6] to-[#9514FA] 
-                        text-transparent bg-clip-text transition-all duration-300'>Watch Demo</span>
+                        text-transparent bg-clip-text'>Watch Demo</span>
                     </button>
                 </div>
             </div>
