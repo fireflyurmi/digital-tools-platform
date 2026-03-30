@@ -3,6 +3,7 @@ import DigitalTools from './Components/DigitalTools/DigitalTools'
 import Navbar from './Components/Navbar/Navbar'
 import Banner from './Components/Ui/Banner'
 import Counter from './Components/Ui/Counter'
+import Pricing from './Components/Ui/Pricing'
 import Steps from './Components/Ui/Steps'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Counter></Counter>
       <DigitalTools></DigitalTools>
       <Steps></Steps>
+      <Pricing></Pricing>
     </>
   )
 }
