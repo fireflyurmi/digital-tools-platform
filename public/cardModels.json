@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds.",
+    "price": "$29",
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
+    "icon": "https://i.ibb.co.com/6JfsNs33/writing.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media and marketing materials.",
+    "price": "$49",
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "https://i.ibb.co.com/fY7ZWNZ3/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics.",
+    "price": "$19",
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["10M+ assets", "Commercial use", "No attribution"],
+    "icon": "https://i.ibb.co.com/Kpg3B7Hk/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": "$79",
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "https://i.ibb.co.com/Qv9bF5PR/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": "$15",
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/bgnWSDLN/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content globally.",
+    "price": "$39",
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["5000+ assets", "Scheduler included", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/F4Bm5NH3/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "SEO Optimizer Tool",
+    "description": "Boost your website rankings with keyword research and site audits.",
+    "price": "$45",
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Keyword tracking", "Competitor analysis", "Weekly reports"],
+    "icon": "https://i.ibb.co.com/wZf9dTWQ/seo.png"
+  },
+  {
+    "id": 8,
+    "name": "Email Marketing Suite",
+    "description": "Design beautiful newsletters and manage your subscriber list effectively.",
+    "price": "$25",
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Drag-and-drop editor", "Automation flows", "A/B testing"],
+    "icon": "https://i.ibb.co.com/FqhhvBR0/marketing.png"
+  },
+  {
+    "id": 9,
+    "name": "Video Editing Assets",
+    "description": "Professional transitions, LUTs, and sound effects for video creators.",
+    "price": "$59",
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["4K resolution", "Compatible with Premiere", "Lifetime updates"],
+    "icon": "https://i.ibb.co.com/QvyymdQX/video.png"
+  },
+  {
+    "id": 10,
+    "name": "Cyber Security Bundle",
+    "description": "Protect your digital workspace with advanced encryption and VPN tools.",
+    "price": "$99",
+    "period": "yearly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Password manager", "Secure VPN", "Multi-device support"],
+    "icon": "https://i.ibb.co.com/mrtRv0mR/cyber.png"
+  }
+]

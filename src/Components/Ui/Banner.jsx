@@ -21,7 +21,7 @@ const Banner = () => {
                     software—all in one place. Start creating faster today.<br></br> Explore Products :
                 </p>
                 <div className="flex flex-col sm:flex-row items-center gap-4 pt-4 justify-center lg:justify-start">
-                    <button className="w-full sm:w-auto px-8 py-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-semibold rounded-full hover:brightness-150 transition-all">
+                    <button className="w-full sm:w-auto px-8 py-4 bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-semibold rounded-full hover:brightness-150 hover:scale-105 transition">
                         Explore Products
                     </button>
                     <button className="flex w-full sm:w-auto items-center justify-center gap-3 px-8 py-4 border-2 border-[#861dfa] hover:-translate-y-2 rounded-full font-semibold transition-all duration-300 hover:bg-blue-100">

@@ -78,7 +78,7 @@ const Navbar = () => {
 
           <div className="hidden lg:flex gap-3 items-center">
             <a className="btn btn-ghost text-lg">Login</a>
-            <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-6 hover:brightness-150 transition-all">
+            <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-6 hover:brightness-150 hover:scale-105 transition">
               Get Started
             </a>
           </div>
