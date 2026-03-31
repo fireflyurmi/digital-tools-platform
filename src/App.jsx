@@ -10,6 +10,8 @@ import Counter from "./Components/Ui/Counter";
 import Pricing from "./Components/Ui/Pricing";
 import Steps from "./Components/Ui/Steps";
 import Cart from "./Components/CardModels/Cart";
+import WorkFlow from "./Components/Ui/WorkFlow";
+import Footer from "./Components/Ui/Footer";
 
 const getCardModels = async () => {
   const res = await fetch("/cardModels.json");
@@ -80,6 +82,8 @@ function App() {
 
       <Steps />
       <Pricing />
+      <WorkFlow/>
+      <Footer/>
     </>
   );
 }

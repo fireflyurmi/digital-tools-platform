@@ -3,27 +3,6 @@ import user from "../../assets/user.png";
 import packageIcon from "../../assets/package.png";
 import rocket from "../../assets/rocket.png";
 
-const steps = [
-  {
-    id: "01",
-    title: "Create Account",
-    desc: "Sign up for free in seconds. No credit card required to get started.",
-    image: user,
-  },
-  {
-    id: "02",
-    title: "Choose Products",
-    desc: "Browse our catalog and select the tools that fit your needs.",
-    image: packageIcon,
-  },
-  {
-    id: "03",
-    title: "Start Creating",
-    desc: "Download and start using your premium tools immediately.",
-    image: rocket,
-  },
-];
-
 const Steps = () => {
   return (
     <div>
@@ -40,30 +19,66 @@ const Steps = () => {
 
           {/* Cards */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {steps.map((step, index) => (
-              <div
-                key={index}
-                className="relative bg-white p-8 rounded-xl border border-gray-300"
-              >
-                <span className="absolute top-4 right-4 text-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-2 py-2 rounded-full">
-                  {step.id}
-                </span>
+            <div className="relative bg-white p-8 rounded-xl border border-gray-300 text-center">
+              <span className="absolute top-4 right-4 text-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-2 py-2 rounded-full">
+                01
+              </span>
 
-                <div className="w-16 h-16 mx-auto rounded-full bg-purple-100 flex items-center justify-center">
-                  <img
-                    src={step.image}
-                    alt={step.title}
-                    className="w-8 h-8 object-contain"
-                  />
-                </div>
-                <h3 className="mt-6 text-lg font-semibold text-gray-800 text-center">
-                  {step.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-500 text-center">
-                  {step.desc}
-                </p>
+              <div className="w-16 h-16 mx-auto rounded-full bg-purple-100 flex items-center justify-center">
+                <img src={user} alt="Create Account" className="w-8 h-8" />
               </div>
-            ))}
+
+              <h3 className="mt-6 text-lg font-semibold text-gray-800">
+                Create Account
+              </h3>
+
+              <p className="mt-2 text-sm text-gray-500">
+                Sign up for free in seconds. No credit card required to get
+                started.
+              </p>
+            </div>
+
+            
+            <div className="relative bg-white p-8 rounded-xl border border-gray-300 text-center">
+              <span className="absolute top-4 right-4 text-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-2 py-2 rounded-full">
+                02
+              </span>
+
+              <div className="w-16 h-16 mx-auto rounded-full bg-purple-100 flex items-center justify-center">
+                <img
+                  src={packageIcon}
+                  alt="Choose Products"
+                  className="w-8 h-8"
+                />
+              </div>
+
+              <h3 className="mt-6 text-lg font-semibold text-gray-800">
+                Choose Products
+              </h3>
+
+              <p className="mt-2 text-sm text-gray-500">
+                Browse our catalog and select the tools that fit your needs.
+              </p>
+            </div>
+
+            
+            <div className="relative bg-white p-8 rounded-xl border border-gray-300 text-center">
+              <span className="absolute top-4 right-4 text-xs bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white px-2 py-2 rounded-full">
+                03
+              </span>
+
+              <div className="w-16 h-16 mx-auto rounded-full bg-purple-100 flex items-center justify-center">
+                <img src={rocket} alt="Start Creating" className="w-8 h-8" />
+              </div>
+
+              <h3 className="mt-6 text-lg font-semibold text-gray-800">
+                Start Creating
+              </h3>
+
+              <p className="mt-2 text-sm text-gray-500">
+                Download and start using your premium tools immediately.
+              </p>
+            </div>
           </div>
         </div>
       </section>
