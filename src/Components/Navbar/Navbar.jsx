@@ -1,10 +1,10 @@
 import { ShoppingCart } from "lucide-react";
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ cartCount }) => {
   return (
     <div className="border-b border-gray-200">
-      <div className="navbar max-w-7xl mx-auto">
+      <div className="navbar max-w-7xl mx-auto p-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -72,9 +72,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end flex items-center gap-4">
-          <button className="btn btn-ghost btn-circle">
-            <ShoppingCart className="w-5 h-5" />
-          </button>
+          <div className="indicator">
+            {cartCount > 0 && (
+              <span className="indicator-item badge badge-sm bg-red-500 text-white border-none">
+                {cartCount}
+              </span>
+            )}
+            <button className="btn btn-ghost btn-circle">
+              <ShoppingCart className="w-5 h-5" />
+            </button>
+          </div>
 
           <div className="hidden lg:flex gap-3 items-center">
             <a className="btn btn-ghost text-lg">Login</a>
