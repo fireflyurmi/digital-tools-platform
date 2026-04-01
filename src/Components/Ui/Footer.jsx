@@ -99,7 +99,7 @@ const Footer = () => {
             <div className="flex flex-row gap-3">
               <a
                 href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition p-2"
+                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-300 transition p-2"
               >
                 <img
                   src={instagramIcon}
@@ -109,7 +109,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition p-2"
+                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-300 transition p-2"
               >
                 <img
                   src={facebookIcon}
@@ -119,7 +119,7 @@ const Footer = () => {
               </a>
               <a
                 href="#"
-                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-200 transition p-2"
+                className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-gray-300 transition p-2"
               >
                 <img
                   src={twitterIcon}

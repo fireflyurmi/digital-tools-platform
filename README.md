@@ -1,16 +1,56 @@
-# React + Vite
+# 🚀 Digital-Tools Buying Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Description
 
-Currently, two official plugins are available:
+Digitools is a modern, feature-rich web application that provides a collection of powerful digital tools designed to simplify everyday tasks. Built with a focus on performance, usability, and clean UI design, it enables users to access multiple utilities in one place, enhancing productivity through a fast, responsive, and intuitive experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ⚛️ React
+* 🎨 Tailwind CSS
+* 🌼 DaisyUI
+* 🟨 JavaScript
+* 🌐 Node.js
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 📱 Fully responsive design (mobile, tablet, desktop)
+* 🎨 Beautiful UI components using DaisyUI
+* 🧩 Clean and reusable component-based architecture
+* 🚀 Smooth user experience with modern design
+
+---
+
+## 🚀 Usage
+
+Run the project and open in browser:
+👉 http://localhost:5173
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 🌟 Support
+
+If you like this project, don’t forget to give it a ⭐ on GitHub!
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by Urmi Halder
