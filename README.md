@@ -25,12 +25,13 @@ Digitools is a modern, feature-rich web application that provides a collection o
 
 ---
 
-## 🚀 Usage
-
-Run the project and open in browser:
-👉 http://localhost:5173
+### 🔗 Live Demo
+[Explore Digitools Center](https://digitools-center.netlify.app/)
 
 ---
+
+### 📸 Project Preview
+![Project Preview](./preview.png)
 
 ## 🤝 Contributing
 
